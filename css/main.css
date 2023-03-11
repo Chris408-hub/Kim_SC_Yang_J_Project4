@@ -1,0 +1,53 @@
+
+.hidden {
+    display: none;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #menu {
+    display: none;
+} */
+
+#header-icons{
+    display: none;
+}
+
+
+#shop{
+    position: fixed;
+    left: 1624px;
+    width: 253px;
+    height: 74px;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* #menu {
+      display: block;
+   } */
+
+    #header-icons{
+      display: block;
+   }
+
+
+}
+
+@media screen and (min-width: 1920px) {
+    
+    /* #menu {
+      display: block;
+   } */
+
+   #header-icons{
+      display: block;
+   }
+}
